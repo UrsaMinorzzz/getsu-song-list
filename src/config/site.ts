@@ -67,30 +67,30 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
 	profile: {
-		avatar: 'assets/Hana.jpg',
-		avatarAlt: '姬路姬咲花',
-		homepageUrl: 'http://space.bilibili.com/3546597585587017',
+		avatar: 'assets/Getsu.jpg',
+		avatarAlt: '堇月Getsu',
+		homepageUrl: 'https://space.bilibili.com/3546781036055061',
 	},
 	meta: {
-		title: '咲花大小姐的歌单',
-		description: 'bilibili主播姬路姬咲花的歌单。',
+		title: '堇月Getsu的歌单',
+		description: 'bilibili主播堇月Getsu的歌单。',
 		keywords: ['歌单', 'VTuber', '静态网站', '音乐检索', '多语言搜索'],
 		canonical: 'https://example.com/',
 		ogImage: '/assets/background.jpg',
 	},
 	hero: {
-		title: '姬路姬咲花的歌单',
-		subtitle: '我是被马车创飞转生到这里的异世界天才大小姐/はな❀/每日直播时间17:00| ˙꒳¯ )\n 禁言通知群：101208094',
+		title: '堇月Getsu的歌单',
+		subtitle: '和使魔大人一起冒险中，目标是成为最厉害的女巫！',
 	},
 	liveRoom: {
 		enabled: true,
-		roomId: 31702685,
+		roomId: 1736197007,
 		roomUrl: 'https://live.bilibili.com/{roomId}',
-		// statusEndpoint: 'https://api.live.bilibili.com/room/v1/Room/get_info?room_id={roomId}',
-		statusEndpoint: 'http://rei.monoteam.top/bili_proxy.php?room_id={roomId}',
+		statusEndpoint: 'https://api.live.bilibili.com/room/v1/Room/get_info?room_id={roomId}',
+		// statusEndpoint: 'http://rei.monoteam.top/bili_proxy.php?room_id={roomId}',
 		embedUrl: 'https://www.bilibili.com/blackboard/live/live-activity-player.html?cid={roomId}&quality=0',
-		coverImage: '/assets/Hana.jpg',
-		offlineCover: '/assets/Hana.jpg',
+		coverImage: '/assets/Getsu.jpg',
+		offlineCover: '/assets/Getsu.jpg',
 		pollIntervalMs: 60000,
 	},
 };

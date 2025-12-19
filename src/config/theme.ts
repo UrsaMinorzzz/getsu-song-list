@@ -93,7 +93,7 @@ export const theme: ThemeConfig = {
 	},
 	background: {
 		type: 'image',
-		src: '/assets/phony.jpg',
+		src: '/assets/Getsu-Background.jpg',
 		blur: true,
 		overlay: 'linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.75))',
 	},

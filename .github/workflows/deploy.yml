@@ -33,8 +33,8 @@ jobs:
 
       - name: Build
         env:
-          ASTRO_BASE: hana-song-list
-          ASTRO_SITE: https://ursaminorzzz.github.io/hana-song-list/
+          ASTRO_BASE: getsu-song-list
+          ASTRO_SITE: https://ursaminorzzz.github.io/getsu-song-list/
         run: bun run build
 
       - name: Upload build artifacts
