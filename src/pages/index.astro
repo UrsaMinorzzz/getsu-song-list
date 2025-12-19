@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SongExplorer } from '../components/song-list/SongExplorer';
+import { loadSongDataset } from '../lib/csv/loadSongs';
+
+const dataset = loadSongDataset();
+---
+
+<BaseLayout>
+	<SongExplorer client:load dataset={dataset} />
+</BaseLayout>
