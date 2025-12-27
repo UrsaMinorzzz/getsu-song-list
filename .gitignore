@@ -12,6 +12,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# scripts
+public/assets/原图/
+public/assets/压缩图/
+public/assets/resize.py
 
 # environment variables
 .env

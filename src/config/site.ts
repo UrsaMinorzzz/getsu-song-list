@@ -76,7 +76,7 @@ export const siteConfig: SiteConfig = {
 		description: 'bilibili主播堇月Getsu的歌单。',
 		keywords: ['歌单', 'VTuber', '静态网站', '音乐检索', '多语言搜索'],
 		canonical: 'https://ursaminorzzz.github.io/getsu-song-list/',
-		ogImage: '/assets/background.jpg',
+		ogImage: '/assets/Getsu-BG.png',
 	},
 	hero: {
 		title: '堇月Getsu的歌单',
